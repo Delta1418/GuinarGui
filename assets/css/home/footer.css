@@ -1,0 +1,71 @@
+.footer {
+	width: 100%;
+	height: 200px;
+	border-top: 1px dashed rgba(0, 0, 0, 0.3);
+	padding: 10px;
+	background: #a4a4a480;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	letter-spacing: 1px;
+	display: flex;
+	justify-content: space-around;
+    position: relative;
+}
+
+.footer__contact {
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+}
+
+.footer__contact--link {
+	text-decoration: none;
+	color: #18797c;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 600;
+	transition: all 0.3s ease;
+	margin-top: 10px;
+}
+
+.footer__contact--link:hover {
+	text-decoration: underline;
+}
+
+.footer__socialNetwork--h3 {
+	margin-bottom: 20px;
+}
+
+.footer__socialNetwork--link {
+	color: #605f5f;
+	font-size: 25px;
+	transition: all 0.2s ease;
+}
+
+.facebook:hover {
+	color: #1877f2;
+}
+
+.twitter:hover {
+	color: #1da1f2;
+}
+
+.youtube:hover {
+	color: #ff0000;
+}
+
+.instagram:hover {
+	color: #bc2a8d;
+}
+
+.whatsapp:hover {
+	color: #25d366;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 10px;
+}
+
+.copyright p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}

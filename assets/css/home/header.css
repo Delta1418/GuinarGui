@@ -1,0 +1,96 @@
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.home__content {
+	width: 100%;
+	height: auto;
+}
+
+/* HEADER */
+.header {
+	background: #f1f1f1;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+/* Logo */
+.header__logo--h1 {
+	font-family: 'Dancing Script', 'cursive';
+    font-size: 40px;
+}
+
+/* Navigation */
+.header__nav {
+	margin-top: 20px;
+}
+
+.header__nav--ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.ul--list {
+	display: block;
+}
+
+.ul--list-link {
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	color: #333;
+    padding: 10px 15px;
+    transition: all .2s ease;
+}
+
+.ul--list-link:hover {
+    background: #a4a4a4c9;
+    color: #fff;
+}
+
+.ul--list-link i {
+    color: #333;
+    margin-right: 3px;
+}
+
+/* La barre de recherche */
+.hedaer__search--box {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.hedaer__search--box input {
+    border: 2px solid #f1f1f1;
+    outline: none;
+    width: 250px;
+    border-radius: 10px;
+    padding: 7px 3px;
+    transition: all .3s ease;
+}
+
+.hedaer__search--box input:focus {
+    border: 2px solid #67b0ec;
+}
+
+.hedaer__search--box input::placeholder {
+    font-size: 15px;
+    color: #a4a4a4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+
+.hedaer__search--box i {
+    cursor: pointer;
+    font-size: 22px;
+    margin-left: 3px;
+}
